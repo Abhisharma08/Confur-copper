@@ -1,5 +1,6 @@
 "use client"
 
+import Script from "next/script"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -55,7 +56,19 @@ export default function LandingPage() {
   }
 
   return (
-<div className="flex flex-col min-h-screen overflow-x-hidden bg-white">
+    <>
+      <Script
+        id="gtm-script"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KMD92WBZ');`,
+        }}
+      />
+      <div className="flex flex-col min-h-screen overflow-x-hidden bg-white">
   {/* URGENCY BAR */}
   {/* <div className="fixed top-0 z-[60] w-full bg-primary py-2 text-center text-sm font-semibold text-white">
     🔥 Limited Slots Open — Get Your Custom Furnace Quote Within 4 Working Hours
@@ -604,6 +617,7 @@ export default function LandingPage() {
           </Button>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
