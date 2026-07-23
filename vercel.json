@@ -5,8 +5,8 @@
       "destination": "https://billet-reheating-furnace.vercel.app/billet-reheating-furnace/:path*"
     },
     {
-      "source": "/bogie-hearth-furnace/:path*",
-      "destination": "https://bogie-hearth-furnace.vercel.app/bogie-hearth-furnace/:path*"
+      "source": "/heat-treatment-furnaces/:path*",
+      "destination": "https://bogie-hearth-furnace.vercel.app/heat-treatment-furnaces/:path*"
     }
    
   ]
