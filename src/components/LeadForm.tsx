@@ -36,7 +36,7 @@ const defaultValues: FormValues = {
   company_name: "",
   budget: "",
   custom_requirement: "",
-  lead_source: "ALLUMINIUM FURNACE LP",
+  lead_source: "COPPER ROD LP",
 }
 
 const BUDGET_OPTIONS = [
@@ -144,7 +144,7 @@ export default function LeadForm({
         name: values.name.trim(),
         email: values.email.trim(),
         phone: values.phone.trim(),
-        lead_source: "ALLUMINIUM FURNACE LP (Step 1 Completed)",
+        lead_source: "COPPER ROD LP (Step 1 Completed)",
       })
 
       if (!result.success) {
@@ -177,7 +177,7 @@ export default function LeadForm({
         company_name: values.company_name.trim(),
         budget: values.budget,
         custom_requirement: values.custom_requirement.trim(),
-        lead_source: "ALLUMINIUM FURNACE LP",
+        lead_source: "COPPER ROD LP",
       })
 
       if (!result.success) {

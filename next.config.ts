@@ -1,7 +1,7 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  basePath: '/aluminium-furnaces',
+  basePath: '/copper-furnace',
   skipTrailingSlashRedirect: true,
   typescript: {
     ignoreBuildErrors: true,
