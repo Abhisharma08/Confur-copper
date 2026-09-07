@@ -22,11 +22,9 @@ const robotoSlab = Roboto_Slab({
 
 export const metadata: Metadata = {
   title:
-    "Continental Furnaces | Leading Industrial Furnace Manufacturer in India",
     "Continental Furnaces | Copper Rod Manufacturing Systems (CCR & UPCAST Lines)",
 
   description:
-    "Continental Furnaces manufactures energy-efficient industrial furnaces, heat treatment systems, melting systems, galvanizing plants, and thermal processing solutions for industries across India and global markets.",
     "ETP, FRHC and oxygen-free copper rod manufacturing systems from Continental Furnaces. Integrated melting, casting, rolling, cooling and automation engineered around your feed and finished rod.",
 
   keywords: [
@@ -39,14 +37,6 @@ export const metadata: Metadata = {
     "FRHC Copper Rod",
     "Continental Furnaces",
     "Industrial Furnace Manufacturer India",
-    "Aluminium Furnace",
-    "Heat Treatment Furnace",
-    "Melting Furnace",
-    "Galvanizing Plant",
-    "Industrial Oven",
-    "Thermal Processing Solutions",
-    "Bogie Hearth Oven",
-    "Ageing Furnace",
   ],
 }
 
