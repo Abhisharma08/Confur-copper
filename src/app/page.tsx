@@ -64,7 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <nav className="fixed top-0 w-full z-50 border-b border-slate-200 bg-white/95 backdrop-blur-md">
           <div className="container mx-auto flex h-16 md:h-20 max-w-7xl items-center justify-between px-4">
             {/* Logo */}
-            <Link href="/" className="flex items-center">
+            <div className="flex items-center">
               <Image
                 src={LOGO_URL}
                 alt="Continental Furnaces"
@@ -73,7 +73,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 className="h-10 md:h-12 w-auto object-contain"
                 priority
               />
-            </Link>
+            </div>
 
             {/* Right Action */}
             <div className="hidden lg:flex items-center gap-5">
